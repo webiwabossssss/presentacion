@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crítica a las Políticas de Donald Trump</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1a365d;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.2em;
+        }
+        .subtitle {
+            text-align: center;
+            color: #718096;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+        h2 {
+            color: #2b6cb0;
+            margin-top: 35px;
+            margin-bottom: 12px;
+            border-left: 5px solid #2b6cb0;
+            padding-left: 15px;
+        }
+        p { margin-bottom: 15px; color: #4a5568; }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 15px 0;
+            display: block;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .caption {
+            font-size: 0.9em;
+            color: #718096;
+            text-align: center;
+            margin-top: -10px;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+        .conclusion {
+            background: #ebf8ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 40px;
+            border-left: 5px solid #3182ce;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #a0aec0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Crítica a las Políticas de Donald Trump</h1>
+        <p class="subtitle">Análisis de cuatro áreas clave de su segundo mandato (2025-)</p>
+
+        <h2>1. Política Económica: Aranceles y Déficit</h2>
+        <p>
+            La imposición masiva de aranceles a China, México, Canadá y la Unión Europea 
+            ha generado una guerra comercial que eleva los precios de bienes de consumo 
+            y afecta especialmente a las clases medias y bajas. Aunque se presenta como 
+            “protección a la industria estadounidense”, los estudios económicos muestran 
+            un aumento de la inflación y una pérdida de competitividad a largo plazo.
+        </p>
+        <img src="images/economia.jpg" alt="Gráfico de aranceles recíprocos">
+        <p class="caption">Gráfico oficial de aranceles recíprocos anunciados en 2025</p>
+
+        <h2>2. Inmigración: Enfoque de “tolerancia cero”</h2>
+        <p>
+            Las redadas masivas, la expansión de centros de detención y la política de 
+            separación familiar han sido criticadas por organizaciones de derechos humanos 
+            por su severidad y por no resolver las causas estructurales de la migración. 
+            El enfoque punitivo ha generado tensión diplomática con países vecinos.
+        </p>
+        <img src="images/inmigracion.jpg" alt="Muro fronterizo entre EE.UU. y México">
+        <p class="caption">Muro fronterizo entre Estados Unidos y México</p>
+
+        <h2>3. Medio Ambiente: Retroceso en regulación climática</h2>
+        <p>
+            La administración ha desmantelado regulaciones ambientales, favorecido 
+            la expansión de combustibles fósiles y retirado nuevamente compromisos 
+            internacionales sobre cambio climático. Esto genera preocupación por 
+            el futuro de las generaciones más jóvenes.
+        </p>
+        <img src="images/medioambiente.jpg" alt="Contaminación industrial">
+        <p class="caption">Contaminación industrial por combustibles fósiles</p>
+
+        <h2>4. Instituciones Democráticas y Separación de Poderes</h2>
+        <p>
+            Las constantes confrontaciones con el Congreso, el poder judicial y los 
+            medios de comunicación han erosionado la confianza en las instituciones. 
+            Críticos advierten que el uso de decretos ejecutivos y la polarización 
+            debilitan el sistema de pesos y contrapesos que caracteriza a la democracia 
+            estadounidense.
+        </p>
+        <img src="images/instituciones.jpg" alt="Capitolio de Estados Unidos">
+        <p class="caption">El Capitolio de Estados Unidos, símbolo de la democracia</p>
+
+        <div class="conclusion">
+            <h2>Conclusión</h2>
+            <p>
+                Aunque algunas medidas buscan fortalecer la soberanía económica y 
+                la seguridad fronteriza, el costo social, económico, ambiental e 
+                institucional ha sido alto. Una crítica constructiva no niega los 
+                problemas reales, sino que cuestiona si los métodos elegidos son 
+                los más eficaces y justos a largo plazo.
+            </p>
+        </div>
+
+        <footer>
+            Página creada para Clase 3 – Página Web con Imágenes
+        </footer>
+    </div>
+</body>
+</html>
